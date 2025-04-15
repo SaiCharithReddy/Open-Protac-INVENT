@@ -35,7 +35,7 @@ Installation
 
         $ pip install reinvent_scoring-0.0.73_bq-py3-none-any.whl
 
-6. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue/D:/collab/DockStream-master) repository
+6. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master) repository
 
    This is the docking component special for Protac-invent.
 

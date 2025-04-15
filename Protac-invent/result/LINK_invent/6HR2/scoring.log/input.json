@@ -76,8 +76,8 @@
                     "component_type": "dockstream",
                     "name": "ADV",
                     "specific_parameters": {
-                        "configuration_path": "/D:/collab/DockStream-master/result/6HR2/6HR2_scoring.json",
-                        "docker_script_path": "/D:/collab/DockStream-master/docker.py",
+                        "configuration_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/6HR2/6HR2_scoring.json",
+                        "docker_script_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/docker.py",
                         "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python",
                         "transformation": {
                             "high": 0,
@@ -93,7 +93,7 @@
                     "name": "PostDock Tanimoto ROCS sim",
                     "specific_parameters": {
                         "color_weight": 0.0,
-                        "docked_poses_path": "/D:/collab/DockStream-master/result/6HR2/docked_result_docking_weight1_custom_product_scoring",
+                        "docked_poses_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/6HR2/docked_result_docking_weight1_custom_product_scoring",
                         "enumerate_stereo": true,
                         "input_type": "sdf",
                         "max_num_cpus": 120,

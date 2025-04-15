@@ -117,7 +117,7 @@ if __name__ == "__main__":
         help="output rmsd in a csv file, default: rmsd.csv",
     )
     args = parser.parse_args(['-r', '/Reinvent-master-3.2/data/protac/5T35/5t35_ligand.sdf',
-                             '-p', '/D:/collab/DockStream-master/result/5T35/0000_glide.sdf']
+                             '-p', '//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/5T35/0000_glide.sdf']
                              )
 
     ref_fmt = args.reference.split(".")[-1]

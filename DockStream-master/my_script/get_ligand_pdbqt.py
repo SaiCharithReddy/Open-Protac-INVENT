@@ -1,7 +1,7 @@
 import os
 
 if __name__ == '__main__':
-    reinvent_base_dir = 'D:/Protac-invent/result/LINK_invent'
+    reinvent_base_dir = '/home/protacinvent/Desktop/Getting Started/protac-invent/Protac-invent/result/LINK_invent'
     dockstream_base_dir = '/DockStream-master/result'
 
     name_list = ['5T35',

@@ -132,8 +132,8 @@
                                 "high": 0,
                                 "k": 0.25
                             },
-                            "configuration_path": "/D:/collab/DockStream-master/result/BTK/BTK_docking_weight1_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3.json",
-                            "docker_script_path": "/D:/collab/DockStream-master/docker.py",
+                            "configuration_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/BTK/BTK_docking_weight1_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3.json",
+                            "docker_script_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/docker.py",
 
                             "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
                         }
@@ -152,7 +152,7 @@
                             "transformation": {
                                 "transformation_type": "no_transformation"
                             },
-                            "docked_poses_path": "/D:/collab/DockStream-master/result/BTK/docked_result_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3"
+                            "docked_poses_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/BTK/docked_result_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3"
                         },
                         "weight": 1
                     }

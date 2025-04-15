@@ -16,7 +16,7 @@
           "input": {
             "standardize_smiles": false,
             "type": "sdf",
-            "input_path": "D:/Protac-invent/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_no_constraint_3/rearranged_h_mini.sdf"
+            "input_path": "/home/protacinvent/Desktop/Getting Started/protac-invent/Protac-invent/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_no_constraint_3/rearranged_h_mini.sdf"
           }
         }
       ]

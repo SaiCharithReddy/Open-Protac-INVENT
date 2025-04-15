@@ -2,7 +2,7 @@ import os
 from rdkit import Chem
 
 
-input_sdf_file = 'D:/Protac-invent/result/LINK_invent/BRD9/temp_test/rearranged_h_mini.sdf'
+input_sdf_file = '/home/protacinvent/Desktop/Getting Started/protac-invent/Protac-invent/result/LINK_invent/BRD9/temp_test/rearranged_h_mini.sdf'
 input_pdbqt_file = '/tmp/tmpelyqu88v/0011dxxxn.pdbqt'
 
 output_pdbqt_file = '/tmp/tmpelyqu88v/04amhlv6m.pdbqt'

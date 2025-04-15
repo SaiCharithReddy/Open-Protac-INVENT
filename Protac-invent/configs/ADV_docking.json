@@ -2,7 +2,7 @@
   "docking": {
     "header": {
       "logging": {
-        "logfile": "D:/collab/DockStream-master/result/CL_ADV_demo/ADV_docking.log"
+        "logfile": "/home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/CL_ADV_demo/ADV_docking.log"
       }
     },
     "ligand_preparation": {
@@ -28,13 +28,13 @@
           "RDkit_pool"
         ],
         "parameters": {
-          "binary_location": "D:/collab/DockStream-master/DockStreamCommunity/autodock_vina_1_1_2_linux_x86/bin",
+          "binary_location": "/home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/DockStreamCommunity/autodock_vina_1_1_2_linux_x86/bin",
           "parallelization": {
             "number_cores": 28
           },
           "seed": 42,
           "receptor_pdbqt_path": [
-            "D:/collab/DockStream-master/result/Autodock_Vina_demo/ADV_receptor.pdbqt"
+            "/home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/Autodock_Vina_demo/ADV_receptor.pdbqt"
           ],
           "number_poses": 2,
           "search_space": {
@@ -49,10 +49,10 @@
         },
         "output": {
           "poses": {
-            "poses_path": "D:/collab/DockStream-master/result/CL_ADV_demo/ADV_ligands_docked.sdf"
+            "poses_path": "/home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/CL_ADV_demo/ADV_ligands_docked.sdf"
           },
           "scores": {
-            "scores_path": "D:/collab/DockStream-master/result/CL_ADV_demo/ADV_scores.csv"
+            "scores_path": "/home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/CL_ADV_demo/ADV_scores.csv"
           }
         }
       }

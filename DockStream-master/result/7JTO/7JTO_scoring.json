@@ -16,7 +16,7 @@
           "input": {
             "standardize_smiles": false,
             "type": "sdf",
-            "input_path": "D:/Protac-invent/result/LINK_invent/7JTO/scoring_process/rearranged_h_mini.sdf"
+            "input_path": "/home/protacinvent/Desktop/Getting Started/protac-invent/Protac-invent/result/LINK_invent/7JTO/scoring_process/rearranged_h_mini.sdf"
           }
         }
       ]

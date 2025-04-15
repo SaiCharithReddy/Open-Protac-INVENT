@@ -83,8 +83,8 @@
                                 "high": 0,
                                 "k": 0.25
                             },
-                            "configuration_path": "/data/baiqing/PycharmProjects/D:/collab/DockStream-master/result/5T35/5T35_scoring_protac_invent_top200.json",
-                            "docker_script_path": "/data/baiqing/PycharmProjects/D:/collab/DockStream-master/docker.py",
+                            "configuration_path": "/data/baiqing/PycharmProjects//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/5T35/5T35_scoring_protac_invent_top200.json",
+                            "docker_script_path": "/data/baiqing/PycharmProjects//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/docker.py",
 
                             "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
                         }
@@ -104,7 +104,7 @@
                             "transformation": {
                                 "transformation_type": "no_transformation"
                             },
-                            "docked_poses_path": "/data/baiqing/PycharmProjects/D:/collab/DockStream-master/result/5T35/docked_result_docking_weight1_custom_sum_scoring_protac_invent_top200"
+                            "docked_poses_path": "/data/baiqing/PycharmProjects//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/5T35/docked_result_docking_weight1_custom_sum_scoring_protac_invent_top200"
                         },
                         "weight": 1
                     }

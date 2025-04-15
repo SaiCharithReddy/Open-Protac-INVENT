@@ -76,8 +76,8 @@
                     "component_type": "dockstream",
                     "name": "ADV",
                     "specific_parameters": {
-                        "configuration_path": "/D:/collab/DockStream-master/result/6BOY/6BOY_scoring.json",
-                        "docker_script_path": "/D:/collab/DockStream-master/docker.py",
+                        "configuration_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/6BOY/6BOY_scoring.json",
+                        "docker_script_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/docker.py",
                         "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python",
                         "transformation": {
                             "high": 0,

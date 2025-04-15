@@ -38,7 +38,7 @@ def shape_scoring(ref_sdf, warheads_sdf):
 
 if __name__ == '__main__':
     reinvent_base_dir = '/data/baiqing/PycharmProjects/Reinvent-master-3.2'
-    dockstream_base_dir = '/data/baiqing/PycharmProjects/D:/collab/DockStream-master'
+    dockstream_base_dir = '/data/baiqing/PycharmProjects//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master'
 
 
     name_list = ['5T35',

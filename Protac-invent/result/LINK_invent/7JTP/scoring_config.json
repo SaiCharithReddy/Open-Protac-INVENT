@@ -80,8 +80,8 @@
                                 "high": 0,
                                 "k": 0.25
                             },
-                            "configuration_path": "/D:/collab/DockStream-master/result/7JTP/7JTP_scoring.json",
-                            "docker_script_path": "/D:/collab/DockStream-master/docker.py",
+                            "configuration_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/7JTP/7JTP_scoring.json",
+                            "docker_script_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/docker.py",
 
                             "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
                         }
@@ -100,7 +100,7 @@
                             "transformation": {
                                 "transformation_type": "no_transformation"
                             },
-                            "docked_poses_path": "/D:/collab/DockStream-master/result/7JTP/docked_result_docking_weight1_custom_product_scoring"
+                            "docked_poses_path": "//home/protacinvent/Desktop/Getting Started/protac-invent/DockStream-master/result/7JTP/docked_result_docking_weight1_custom_product_scoring"
                         },
                         "weight": 1
                     }
