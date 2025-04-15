@@ -1,0 +1,22 @@
+{
+    "ENVIRONMENTAL_VARIABLES": {
+      "REINVENT_DIR": "./",
+      "RESOURCE_PATH": "resources/",
+      "OUTPUT_DIR": "results/",
+      "LOGGING_PATH": "logs/"
+    },
+    "logging": {
+      "log_file": "logs/reinvent.log",
+      "log_level": "INFO"
+    },
+    "paths": {
+      "output_dir": "results/",
+      "resource_dir": "resources/"
+    },
+    "reinvent": {
+      "version": "4.0",
+      "use_gpu": true,
+      "random_seed": 42
+    }
+  }
+  
