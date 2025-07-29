@@ -1,2 +1,2 @@
 # Open-Protac-INVENT
-Source code for our paper "3D Based Generative PROTAC Linker Design with Reinforcement Learning". The code was built based on Reinvent (https://github.com/MolecularAI/Reinvent), DockStream (https://github.com/MolecularAI/DockStream). Thanks a lot for their sharing.
+Source code for our paper "___". This adaptation is built on top of Protac-Invent, which itself is based on REINVENT (https://github.com/MolecularAI/Reinvent) and DockStream (https://github.com/MolecularAI/DockStream). We thank the original authors for sharing their work.
