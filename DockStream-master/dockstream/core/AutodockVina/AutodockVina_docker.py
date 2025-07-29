@@ -808,15 +808,32 @@ class AutodockVina(Docker, BaseModel):
         stdout.close()
 
 
-        # translate the parsed output PDBQT into an SDF
-        arguments = [tmp_pdbqt_docked,
-                     _BEE.OBABLE_INPUTFORMAT_PDBQT,
-                     _BEE.OBABEL_OUTPUT_FORMAT_SDF,
-                     "".join([_BEE.OBABEL_O, output_path_sdf])]
-        self._OpenBabel_executor.execute(command=_BEE.OBABEL,
-                                         arguments=arguments,
-                                         check=False)
+        # # translate the parsed output PDBQT into an SDF
+        # arguments = [tmp_pdbqt_docked,
+        #              _BEE.OBABLE_INPUTFORMAT_PDBQT,
+        #              _BEE.OBABEL_OUTPUT_FORMAT_SDF,
+        #              "".join([_BEE.OBABEL_O, output_path_sdf])]
+        # self._OpenBabel_executor.execute(command=_BEE.OBABEL,
+        #                                  arguments=arguments,
+        #                                  check=False)
+        # self._delay4file_system(path=output_path_sdf)
+
+
+        # load the PDBQT into Meeko
+        pdbqt = PDBQTMolecule(tmp_pdbqt_docked)
+        # convert to an RDKit Mol (preserves formal charges and valences)
+        rdkit_mol = pdbqt.to_rdkit_mol()
+        if rdkit_mol is None:
+            raise DockingRunFailed(f"Meeko failed to parse {tmp_pdbqt_docked}")
+
+        # write out as SDF
+        writer = Chem.SDWriter(output_path_sdf)
+        writer.write(rdkit_mol)
+        writer.close()
+
+        # ensure the file is there before returning
         self._delay4file_system(path=output_path_sdf)
+
 
     # def _dock_subjob(self, input_path_pdbqt, output_path_pdbqt, output_path_sdf, output_stdout_txt, idx):
     #
