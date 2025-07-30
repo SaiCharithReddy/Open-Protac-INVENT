@@ -5,7 +5,7 @@ Source code for our paper "---". This adaptation is built on top of Protac-inven
 This adaptation also integrates Roshambo (https://github.com/molecularinformatics/roshambo) to enable shape-based scoring functionality. We thank the original authors of all these projects for sharing their work.
 
 
-# Figure 1: Initial Integration Diagram (To be updated)
+## Figure 1: Initial Integration Diagram (To be updated)
 ![Architecture Overview](assets/architecture.jpg)
 
 
