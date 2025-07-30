@@ -1,6 +1,6 @@
 # Open-Protac-INVENT
 
-Source code for our paper "---". This adaptation is built on top of Protac-invent (https://github.com/jidushanbojue/Protac-invent), which itself is based on REINVENT (https://github.com/MolecularAI/Reinvent), reinvent-scoring (https://github.com/MolecularAI/reinvent-scoring), and DockStream (https://github.com/MolecularAI/DockStream). 
+Source code for our paper "---". This adaptation is built on top of Protac-invent (https://github.com/jidushanbojue/Protac-invent), which itself is based on REINVENT, reinvent-scoring, and DockStream. 
 
 
 This adaptation also integrates Roshambo (https://github.com/molecularinformatics/roshambo) to enable shape-based scoring functionality. We thank the original authors of all these projects for sharing their work.
@@ -86,4 +86,4 @@ We also acknowledge upstream work:
 - [Protac-Invent](https://github.com/jidushanbojue/Protac-invent)
 - [reinvent-scoring](https://github.com/MolecularAI/reinvent-scoring)
 - [DockStream](https://github.com/MolecularAI/DockStream)
-
+- [REINVENT](https://github.com/MolecularAI/Reinvent)
