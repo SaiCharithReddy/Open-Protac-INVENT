@@ -8,6 +8,10 @@ This adaptation also integrates Roshambo (https://github.com/molecularinformatic
 ![Architecture Overview](docs/architecture.jpg)
 *Figure 1: Initial Integration Diagram (To be updated)*
 
+
+
+
+
 ![General Workflow](docs/general_workflow.jpeg)  
 *Figure 2: General workflow of Open-Protac-INVENT. Adapted from [Protac-invent](https://github.com/jidushanbojue/Protac-invent) under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).*
 
