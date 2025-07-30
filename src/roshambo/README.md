@@ -1,3 +1,5 @@
+“This folder contains code derived from Roshambo (GPL-3.0). The rest of the project is under Apache 2.0.”
+
 # <img alt="roshambo" src="docs/logo.jpg" width="500">
 
 # Overview
