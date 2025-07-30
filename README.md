@@ -6,7 +6,7 @@ This adaptation also integrates Roshambo (https://github.com/molecularinformatic
 
 
 ## Figure 1: Initial Integration Diagram (To be updated)
-![Architecture Overview](assets/architecture.jpg)
+![Architecture Overview](docs/architecture.jpg)
 
 
 ## Installation
