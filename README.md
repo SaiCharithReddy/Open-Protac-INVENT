@@ -56,3 +56,17 @@ $ python input.py template.json
 ```
 
 ## License & Attribution
+
+This project is licensed under the **Apache License 2.0**, except where otherwise noted.
+
+Portions of the code, specifically under `src/roshambo/`, are derived from [Roshambo](https://github.com/molecularinformatics/roshambo) and are licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
+Modifications were made to integrate Roshambo into this project. Users must comply with both licenses where applicable.
+
+Full license details can be found in the [LICENSE](./LICENSE) file.  
+For the GPL-3.0 portion, see [src/roshambo/LICENSE](./src/roshambo/LICENSE).
+
+We also acknowledge upstream work:
+- [Protac-Invent](https://github.com/jidushanbojue/Protac-invent)
+- [reinvent-scoring](https://github.com/MolecularAI/reinvent-scoring)
+- [DockStream](https://github.com/MolecularAI/DockStream)
+
