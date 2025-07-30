@@ -1,10 +1,23 @@
 # Open-Protac-INVENT
 
-## Project Description
 Source code for our paper "---". This adaptation is built on top of Protac-invent (https://github.com/jidushanbojue/Protac-invent), which itself is based on REINVENT (https://github.com/MolecularAI/Reinvent) and DockStream (https://github.com/MolecularAI/DockStream). 
 
 
 This adaptation also integrates Roshambo (https://github.com/molecularinformatics/roshambo) to enable shape-based scoring functionality. We thank the original authors of all these projects for sharing their work.
+
+
+## Description
+Open-Protac-INVENT is an open-source adaptation of Protac-Invent, designed for PROTAC linker generation using reinforcement learning and docking-based scoring. 
+The original Protac-Invent framework combines **generative modeling from REINVENT** with **scoring functions from reinvent-scoring** and **docking workflows from DockStream** to enable reinforcement learning-driven linker design.
+
+In this adaptation, we replace proprietary shape-similarity components (e.g., ROCS, Omega) with fully **open-source alternatives** using Roshambo and RDKit for 2D-to-3D conformer generation, shape-based scoring, and energy minimization. These modifications make the workflow more accessible and reproducible, allowing it to be used without commercial licenses.
+
+The repository includes:
+
+- Updated pipelines for open-source shape similarity scoring (**Roshambo + RDKit**).  
+- Integration with **DockStream** for docking and post-docking analysis.  
+- Configurable **JSON templates** for custom linker generation tasks.  
+- Example datasets and results to help users reproduce the workflow.
 
 
 ## Diagrams
@@ -43,6 +56,8 @@ $ conda activate open-protac-invent
 $ pip install -e .
 ```
 
+
+
 ## Usage
 ### 1. Edit the Template JSON
 - Locate the template JSON file (for example: results/LINK_invent/BTK/template.json).
@@ -54,6 +69,8 @@ Execute the following command to start the run using the edited JSON:
 ```bash
 $ python input.py template.json
 ```
+
+
 
 ## License & Attribution
 
