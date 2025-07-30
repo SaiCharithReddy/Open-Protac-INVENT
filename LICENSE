@@ -1,17 +1,4 @@
-This project is licensed under the Apache License 2.0, except where otherwise noted.
-
-Portions of this project, specifically code located in src/roshambo/, are derived from Roshambo
-(https://github.com/molecularinformatics/roshambo) and are licensed under the GNU General Public
-License v3.0 (GPL-3.0). Modifications have been made to integrate Roshambo with this project.
-
-By using this repository, you agree to comply with both licenses where applicable.
-
-For GPL-3.0, see src/roshambo/LICENSE
-
-Full text of Apache 2.0 license is provided below:
-
-
-                                 Apache License
+                               Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
