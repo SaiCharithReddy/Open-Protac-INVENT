@@ -29,7 +29,7 @@ $ git clone https://github.com/SaiCharithReddy/Open-Protac-INVENT.git
 $ cd Open-Protac-INVENT
 ```
 
-### 3. Open a terminal/shell, navigate to the cloned repository, and create the Conda environment
+### 3. Open terminal, navigate to the cloned repository, and create the Conda environment
 ```bash
 $ conda env create -f environment.yml
 ```
@@ -42,4 +42,16 @@ $ conda activate open-protac-invent
 ### 5. Install This Repo
 ```bash
 $ pip install -e .
+```
+
+## Usage
+### 1. Edit the Template JSON
+- Locate the template JSON file (for example: results/LINK_invent/BTK/template.json).
+- Modify the **file and folder paths** in the template as needed.
+- Other parameters can remain unchanged for a standard run.
+
+### 2. Run the Model
+Execute the following command to start the run using the edited JSON:
+```bash
+$ python input.py template.json
 ```
