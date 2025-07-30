@@ -18,27 +18,27 @@ This adaptation also integrates Roshambo (https://github.com/molecularinformatic
 
 ## Installation
 
-### 1. Prerequisites:
+### 1. Prerequisites
 - Install [Conda](https://docs.conda.io/en/latest/miniconda.html) 
 - Ensure `git` is installed and available in your PATH.
 
-### 2. Clone This Repository:
+### 2. Clone This Repository
 ```bash
-git clone https://github.com/SaiCharithReddy/Open-Protac-INVENT.git
-cd Open-Protac-INVENT
+$ git clone https://github.com/SaiCharithReddy/Open-Protac-INVENT.git
+$ cd Open-Protac-INVENT
 ```
 
-### 3. Open a terminal/shell, navigate to the cloned repository, and create the Conda environment:
+### 3. Open a terminal/shell, navigate to the cloned repository, and create the Conda environment
 ```bash
-conda env create -f environment.yml
+$ conda env create -f environment.yml
 ```
 
-### 4. Activate the Environment:
+### 4. Activate the Environment
 ```bash
-conda activate open-protac-invent
+$ conda activate open-protac-invent
 ```
 
-### 5. Install This Repo:
+### 5. Install This Repo
 ```bash
-pip install -e .
+$ pip install -e .
 ```
