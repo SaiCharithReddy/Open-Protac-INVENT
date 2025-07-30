@@ -38,31 +38,7 @@ conda env create -f environment.yml
 conda activate open-protac-invent
 ```
 
-### 5. Install Reinvent-Scoring
-```bash
-git clone https://github.com/MolecularAI/reinvent-scoring.git
-cd reinvent-scoring
-pip install reinvent_scoring-0.0.73_bq-py3-none-any.whl
-cd ..
-```
-
-### 6. Install DockStream
-```bash
-git clone https://github.com/MolecularAI/DockStream.git
-cd DockStream
-pip install -e .
-cd ..
-```
-
-### 7. Install Roshambo
-``` bash
-git clone https://github.com/molecularinformatics/roshambo.git
-cd roshambo
-pip install -e .
-cd ..
-```
-
-### 8. Install This Repo
+### 5. Install This Repo
 ```bash
 pip install -e .
 ```
