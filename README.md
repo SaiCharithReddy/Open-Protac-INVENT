@@ -15,6 +15,14 @@ This adaptation also integrates Roshambo (https://github.com/molecularinformatic
 ![General Workflow](docs/general_workflow.jpeg)  
 *Figure 2: General workflow of Open-Protac-INVENT. Adapted from [Protac-invent](https://github.com/jidushanbojue/Protac-invent) under [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).*
 
+
 ## Installation
 
+### 1. Prerequisites
+- Install [Conda](https://docs.conda.io/en/latest/miniconda.html) 
+- Ensure `git` is installed and available in your PATH.
 
+### 2. Clone This Repository
+```bash
+git clone https://github.com/SaiCharithReddy/Open-Protac-INVENT.git
+cd Open-Protac-INVENT
